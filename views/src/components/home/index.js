@@ -2,9 +2,8 @@ import React, { Component } from "react";
 import axios from 'axios';
 import './index.css';
 
-import Navbar from './section/navbar';
 import Content from './section/dashboard';
-
+import Image from "./section/frame";
 
 
 export default class Home extends Component {
@@ -31,8 +30,8 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <Navbar />
         <Content />
+        <Image />
       </>
     );
   };

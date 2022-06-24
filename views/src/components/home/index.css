@@ -88,6 +88,16 @@ body {
   
 }
 
+.frameimg {
+  display: inline;
+  content: url(../../PicndVid/001Theme.jpg);
+  margin-bottom: 20px;
+  height: 300px;
+  width: 300px;
+  margin-right: 125px;
+
+}
+
 .coolBeans:hover {
   border: 2px solid transparent;
   border-radius: 20px;
