@@ -3,7 +3,7 @@ import axios from 'axios';
 import './index.css';
 
 
-import Image from "./section/frame";  
+ 
 
 
 export default class Home extends Component {
@@ -31,7 +31,7 @@ export default class Home extends Component {
     return (
       <>
         
-        <Image />
+        
       </>
     );
   };
